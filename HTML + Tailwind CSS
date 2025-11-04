@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hot Stone Pub & Grill Menu</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+  <!-- HEADER -->
+  <header class="text-center py-10 bg-gradient-to-r from-amber-600 to-red-700 shadow-lg">
+    <h1 class="text-4xl font-extrabold uppercase tracking-wider">🔥 Hot Stone Pub & Grill</h1>
+    <p class="mt-2 text-lg italic text-gray-200">Taste the Fire. Feel the Flavor.</p>
+  </header>
+
+  <!-- MAIN MENU -->
+  <section class="max-w-5xl mx-auto py-10 px-6">
+    <h2 class="text-3xl font-bold border-b-4 border-amber-500 inline-block mb-6">Main Menu</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-xl font-semibold text-amber-400 mb-2">Grill & Mains</h3>
+        <ul class="space-y-2">
+          <li class="flex justify-between"><span>Grilled T-Bone Steak (400g)</span><span class="font-bold">K150</span></li>
+          <li class="flex justify-between"><span>Chicken Peri-Peri (Full)</span><span class="font-bold">K120</span></li>
+          <li class="flex justify-between"><span>Beef Burger & Chips</span><span class="font-bold">K90</span></li>
+          <li class="flex justify-between"><span>Grilled Fish Fillet</span><span class="font-bold">K110</span></li>
+          <li class="flex justify-between"><span>Vegetarian Plate</span><span class="font-bold">K80</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold text-amber-400 mb-2">Traditional Favorites</h3>
+        <ul class="space-y-2">
+          <li class="flex justify-between"><span>Beef Stew with Nshima</span><span class="font-bold">K85</span></li>
+          <li class="flex justify-between"><span>Goat Curry & Rice</span><span class="font-bold">K100</span></li>
+          <li class="flex justify-between"><span>Kapenta & Veggies</span><span class="font-bold">K70</span></li>
+          <li class="flex justify-between"><span>Village Chicken</span><span class="font-bold">K130</span></li>
+          <li class="flex justify-between"><span>Mixed Grill Platter</span><span class="font-bold">K180</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- DRINKS -->
+  <section class="max-w-5xl mx-auto py-10 px-6 bg-gray-800 rounded-lg shadow-inner">
+    <h2 class="text-3xl font-bold border-b-4 border-amber-500 inline-block mb-6">Drinks</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-xl font-semibold text-amber-400 mb-2">Soft Drinks</h3>
+        <ul class="space-y-2">
+          <li class="flex justify-between"><span>Coca-Cola / Fanta / Sprite</span><span class="font-bold">K20</span></li>
+          <li class="flex justify-between"><span>Fresh Juice (Orange, Pineapple)</span><span class="font-bold">K35</span></li>
+          <li class="flex justify-between"><span>Still Water (500ml)</span><span class="font-bold">K15</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold text-amber-400 mb-2">Alcoholic Beverages</h3>
+        <ul class="space-y-2">
+          <li class="flex justify-between"><span>Mosi / Castle / Black Label</span><span class="font-bold">K35</span></li>
+          <li class="flex justify-between"><span>Whiskey Shot</span><span class="font-bold">K50</span></li>
+          <li class="flex justify-between"><span>Red Wine Glass</span><span class="font-bold">K60</span></li>
+          <li class="flex justify-between"><span>Cocktails (Classic, Margarita, Long Island)</span><span class="font-bold">K90</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIALS -->
+  <section class="max-w-5xl mx-auto py-10 px-6">
+    <h2 class="text-3xl font-bold border-b-4 border-amber-500 inline-block mb-6">Chef’s Specials</h2>
+    <ul class="space-y-3">
+      <li class="flex justify-between"><span>🔥 Hot Stone Mixed Grill Combo (Steak, Chicken, Sausage, Chips, Salad)</span><span class="font-bold">K220</span></li>
+      <li class="flex justify-between"><span>🥘 Seafood Platter (Fish, Prawns, Calamari, Rice)</span><span class="font-bold">K250</span></li>
+      <li class="flex justify-between"><span>🍗 Sunday Braai Plate (only weekends)</span><span class="font-bold">K180</span></li>
+    </ul>
+  </section>
+
+  <!-- DESSERTS -->
+  <section class="max-w-5xl mx-auto py-10 px-6 bg-gray-800 rounded-lg shadow-inner">
+    <h2 class="text-3xl font-bold border-b-4 border-amber-500 inline-block mb-6">Desserts</h2>
+    <ul class="space-y-2">
+      <li class="flex justify-between"><span>Chocolate Lava Cake</span><span class="font-bold">K60</span></li>
+      <li class="flex justify-between"><span>Vanilla Ice Cream (2 Scoops)</span><span class="font-bold">K40</span></li>
+      <li class="flex justify-between"><span>Cheesecake Slice</span><span class="font-bold">K65</span></li>
+      <li class="flex justify-between"><span>Fruit Salad Bowl</span><span class="font-bold">K50</span></li>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-6 mt-10 bg-gray-950">
+    <p class="text-gray-400 text-sm">© 2025 Hot Stone Pub & Grill | Lusaka, Zambia | Designed with ❤️</p>
+  </footer>
+</body>
+</html>
